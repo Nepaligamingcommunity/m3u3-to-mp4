@@ -24,7 +24,7 @@ For a step-by-step guide on how to set up and use this project, please watch the
 1. Clone the repository or download the script.
 2. Open a command prompt.
 3. Navigate to the directory where the script is located.
-4. Run the script by executing `m3u3-to-mp4.bat`.
+4. Run the script by executing `m3u3.bat`.
 
 ### Script Overview
 
