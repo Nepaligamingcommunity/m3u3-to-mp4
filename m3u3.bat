@@ -19,10 +19,8 @@ if "%filename%"=="" (
 
 set /p download_location=Please enter the download location (e.g., C:\Downloads\): 
 
-:: Ensure trailing backslash
 if not "%download_location:~-1%"=="\" set download_location=%download_location%\
 
-:: Create folder if missing
 if not exist "%download_location%" mkdir "%download_location%"
 
 color 07
@@ -51,3 +49,4 @@ IF /I "%fi%"=="y" (
 
 color 07
 pause
+
